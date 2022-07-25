@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="com.example.admin.loginapp.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/tomjerry"/>
+
+    <Button
+        android:id="@+id/GoogleLoginButton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginRight="28dp"
+        android:layout_marginStart="28dp"
+        android:text="Simple Login" />
+
+    <Button
+        android:id="@+id/RegisterButton"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Register"
+        tools:ignore="MissingConstraints"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="@+id/LoginButton"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintLeft_toLeftOf="@+id/LoginButton"
+        app:layout_constraintHorizontal_bias="0.0" />
+
+    <EditText
+        android:inputType="textEmailAddress"
+        android:id="@+id/editTextemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Google ID"
+        android:textSize="25sp"/>
+
+    <EditText
+        android:inputType="textPassword"
+        android:id="@+id/editTextpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textSize="25sp"/>
+
+
+    <Button
+        android:id="@+id/LoginButton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginRight="28dp"
+        android:layout_marginStart="28dp"
+        android:text="Simple Login" />
+
+
+</android.support.v7.widget.LinearLayoutCompat>

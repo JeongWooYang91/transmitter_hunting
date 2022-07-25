@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.admin.loginapp.MapActivity">
+
+
+    <TextView
+        android:id="@+id/TIMER"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="00:00"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="30dp" />
+
+    <ImageView
+        android:id="@+id/mapImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"/>
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp"
+        android:background="@android:color/holo_green_light">
+
+        <android.support.v7.widget.AppCompatButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="A"
+            android:id="@+id/N1"/>
+
+        <android.support.v7.widget.AppCompatButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="B"
+            android:id="@+id/E3"/>
+
+        <android.support.v7.widget.AppCompatButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="C"
+            android:id="@+id/KISTI"/>
+    </android.support.v7.widget.LinearLayoutCompat>
+
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text=""/>
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/UP"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="↑" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text=""/>
+    </android.support.v7.widget.LinearLayoutCompat>
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/LEFT"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="←" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text=""/>
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/RIGHT"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="→" />
+    </android.support.v7.widget.LinearLayoutCompat>
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text=""/>
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/DOWN"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="↓" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text=""/>
+    </android.support.v7.widget.LinearLayoutCompat>
+
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <android.support.v7.widget.AppCompatRadioButton
+            android:id="@+id/GPS"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_weight="1"
+            android:text="REAL GPS" />
+
+        <android.support.v7.widget.AppCompatRadioButton
+            android:id="@+id/DEMO"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="DEMO DATA" />
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+
+</android.support.v7.widget.LinearLayoutCompat>

@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-image: url("intro.jpg");/* no-repeat;*/
+  background-repeat: repeat-y;
+  background-size: 100%;
+}
+
+#container {
+  margin: 0 auto;
+  text-align: center;
+  margin: 30px;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: black;
+  border: 1px solid black;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.hidden {
+  display: none;
+}
+
+#user-info {
+  border: 1px solid #CCC;
+  clear: both;
+  margin: 0 auto;
+  max-width: 400px;
+  text-align: left;
+}
+
+#photo-container {
+  background-color: #EEE;
+  border: 1px solid #CCC;
+  float: left;
+  height: 80px;
+  margin-right: 10px;
+  width: 80px;
+}
+
+#photo {
+  height: 80px;
+  margin: 0;
+  width: 80px;
+}
+
+@media (max-width: 300px) {
+  #photo-container,
+  #photo {
+    height: 40px;
+    width: 40px;
+  }
+}
+
+button {
+	width: 200px;
+	height: 50px;
+	font-size: 20px;
+}

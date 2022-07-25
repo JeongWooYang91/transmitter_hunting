@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "925674081805",
+    "firebase_url": "https://cs408-transmitter-hunting.firebaseio.com",
+    "project_id": "cs408-transmitter-hunting",
+    "storage_bucket": "cs408-transmitter-hunting.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:925674081805:android:3de7ae68d742fece",
+        "android_client_info": {
+          "package_name": "com.example.admin.loginapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "925674081805-ue2hst43eqsbskqqbso94t7ebjgpq4uf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.admin.loginapp",
+            "certificate_hash": "111a651fe0c0abd3a3f10eb39fed649b848f5598"
+          }
+        },
+        {
+          "client_id": "925674081805-vem8tp88m6fja651gm596l7ia0e4b7ak.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.admin.loginapp",
+            "certificate_hash": "5f83e33524e9d6f17f67e20255ec06e976ab4004"
+          }
+        },
+        {
+          "client_id": "925674081805-9vvmkhbfropbu7nlvkngo7jqstv737ac.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxj-M6qIrMxWxGdctytgmNk5OBMrRotC8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "925674081805-9vvmkhbfropbu7nlvkngo7jqstv737ac.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
