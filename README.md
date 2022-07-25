@@ -3,6 +3,7 @@ Implementation of virtual gears required for the sport called the Foxhunt game w
 
 ## Presentation
 * **[6/5] Final Presentation (EOSP)**: click to play the video on YouTube.
+I was the presenter in the video.
 
 [![End of Semester Presentation](https://img.youtube.com/vi/EyGnM-HKcuA/0.jpg)](https://www.youtube.com/watch?v=EyGnM-HKcuA "End of Semester Presentation")
 
